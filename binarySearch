@@ -17,7 +17,7 @@ public class binarySearch {
         return binarySearch(arr,s,mid-1,k);
      }
      
- }
+ };
 
 public static void main(String[] args) { 
 
@@ -25,6 +25,7 @@ System.out.println("enter no of elements") ;
 Scanner sc = new Scanner(System.in);
 int n= sc.nextInt();
 int arr[]= new int[n];
+cout<<"enter numbers consecutively";
 for(int i=0;i<n;i++){
     arr[i]=sc.nextInt();
 }
